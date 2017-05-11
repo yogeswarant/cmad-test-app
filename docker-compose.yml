@@ -1,0 +1,11 @@
+app:
+  image: yogeswarant/book:staging
+  links:
+    - mongodb:mongohost
+  ports:
+    - 8080
+
+mongodb:
+  image: mongo:latest
+
+
